@@ -1,4 +1,4 @@
-#0-1 Knapsac variation 
+#0-1 Knapsack variation 
 m,u,r = map(int, input().split())
 dp = [[0 for i in range(u+1)] for j in range(m+1)]
 for i in range(1, r+1):
