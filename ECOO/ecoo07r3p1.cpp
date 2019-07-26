@@ -66,5 +66,5 @@ int main() {
         }
     }
 }
-#sieve of erasthones
-#getting good
+//sieve of erasthones
+//getting good
