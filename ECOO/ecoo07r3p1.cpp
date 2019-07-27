@@ -66,5 +66,5 @@ int main() {
         }
     }
 }
-//sieve of erasthones
+//sieve of eratosthenes
 //optimizations: converting linear search in solving for 3 to a binary search, I tried, but c++ was scamming me
