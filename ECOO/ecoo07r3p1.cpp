@@ -28,7 +28,7 @@ int main() {
             cout << n << " = " << n << "\n";
         } else {
             if (n % 2 == 0) {
-                for (int i = floor(n / 2); i <= n; i++) {
+                for (int i = n / 2; i <= n; i++) {
                     int j = n - i;
                     if (!prime[i] && !prime[j]) {
                         cout << n << " = " << min(i, j) << " + " << max(i, j) << "\n";
@@ -38,14 +38,14 @@ int main() {
             } else {
                 int start;
                 bool a = false;
-                for (int i = floor(n/3); i >= 0; i--) {
+                for (int i = n/3; i >= 0; i--) {
                     if (!prime[i]) {
                         if (a) {
                             break;
                         }
                         start = i;
                         int newn = n-start;
-                        for (int i = floor(newn / 2); i <= newn; i++) {
+                        for (int i = newn / 2; i <= newn; i++) {
                             int j = newn - i;
                             int mini = min(start, min(i, j));
                             int maxi = max(start, max(i, j));
@@ -54,7 +54,6 @@ int main() {
                             }
                             if (!prime[i] && !prime[j]) {
                                 cout << n << " = " << mini << " + " << n - (mini + maxi) << " + " << maxi << "\n";
-                                cout.flush();
                                 a = true;
                                 break;
                             }
