@@ -24,4 +24,4 @@ int main() {
     cout << total << "\n";
     return 0;
 }
-#2-D Difference Array
+//2-D Difference Array
