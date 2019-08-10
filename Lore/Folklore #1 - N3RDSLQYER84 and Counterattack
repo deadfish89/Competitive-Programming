@@ -14,9 +14,11 @@ Backstory:
 
 The Story:
 
-	N3RDSLQYER84 was feeling good. He just did The Hungary Games (https://dmoj.ca/problem/cco12p2), an exact replica of Counterattack, the beast he was conquering today.
+	N3RDSLQYER84 was feeling good. 
+	He just did The Hungary Games (https://dmoj.ca/problem/cco12p2), an exact replica of Counterattack, which he would do today.
 
-	After tweaking the code for a bit, he submitted. AC, AC, AC... TLE??? He managed to pass every case, except for the last one, which was worth 15/92 points. 
+	After tweaking the code for a bit, he submitted. AC, AC, AC... TLE??? 
+	He managed to pass every case, except for the last one, which was worth 15/92 points. 
 	"17pp huh... not bad", he thought. "Maybe the judge is running slow today."
 
 	With this thought in mind, he resubmitted his code. "Hmm...", he thought as it TLE'd again. "Perhaps again?"
