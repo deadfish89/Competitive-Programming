@@ -33,4 +33,8 @@ for _ in range(int(input())):
         smh += 1
     print()
 
-# smh
+# this question has a couple of traps you can fall into: 
+# firstly, forgetting that eleventh is not elevenst
+# secondly, forgetting that if there are two elements in 1st place,
+# the subsequent element is in 3rd place, not in 2nd
+# RIP my AC rate
