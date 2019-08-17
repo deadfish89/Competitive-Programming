@@ -30,7 +30,8 @@ int main() {
             }
         }
     }
-    long long start = max(n, 2LL);
+    long long two = 2;
+    long long start = max(n, two);
     for (long long i = start; i < m; i++) {
         if (!primeB[i-n]) {
             ans++;
